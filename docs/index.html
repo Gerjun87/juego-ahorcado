@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Ahorcado</title>
+    <script defer src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header><img id="logo" src="./img/state/logo.png" alt="Logo"></header>
+    <div class="hombre-ahorcado">
+        <img id="hombre" alt="hombre-ahorcado">
+    </div>
+    <div class="adivinado"></div>
+    <div class="errado"></div>
+
+    <form class="botones" action="javascript:voind(0)">
+        <input type="button" class="btn-azul" value="Nuevo Juego" onclick="nuevoJuego()">
+        <input type="button" value="Desistir" onclick="desistir()">
+    </form>
+    <footer id="pie">Juego del Ahorcado ONE - Gerardo Sepúlveda © 2022</footer>
+</body>
+
+</html>
