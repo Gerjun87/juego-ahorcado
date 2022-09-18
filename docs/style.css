@@ -13,7 +13,7 @@ html{
 
 #logo{
     width: 2rem;
-    margin-left: 2rem;
+    margin-left: 10rem;
     margin-top: 1.5rem;
 }
 
@@ -80,6 +80,24 @@ html{
 .botones{
     text-align: center;
     margin-top: 3rem;
+}
+
+#btn-nuevo:hover{
+    box-shadow: 5px 5px 5px .5px #3C3F75;
+}
+
+#btn-nuevo:active{
+    color: #000;
+    background-color: white;
+}
+
+#btn-desistir:hover{
+    box-shadow: 5px 5px 5px .5px #3C3F75;
+}
+
+#btn-desistir:active{
+    color: white;
+    background-color: #0a3871;
 }
 
 #pie{
